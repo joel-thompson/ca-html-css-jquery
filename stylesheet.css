@@ -16,3 +16,11 @@ table {
 li {
 	font-family: Arial;
 }
+
+tr td {
+	color: red;
+}
+
+#table-title {
+	color: yellow;
+}
