@@ -24,3 +24,14 @@ tr td {
 #table-title {
 	color: yellow;
 }
+
+#blueish {
+	/*background-color: blue;*/
+	width:500px; 
+	height:100px;
+	float: right;
+	border: dashed 2px red;
+	padding: 5px;
+	margin: 10px;
+	
+}
