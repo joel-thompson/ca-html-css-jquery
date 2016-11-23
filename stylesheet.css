@@ -33,5 +33,14 @@ tr td {
 	border: dashed 2px red;
 	padding: 5px;
 	margin: 10px;
-	
+
+
+}
+
+#glink {
+	width:900px; 
+	height:100px; 
+	background-color: yellow;
+	/*position: fixed;*/
+	float: left;
 }
