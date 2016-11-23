@@ -36,3 +36,26 @@ div {
 	clear: both;
 }
 
+p {
+	font-family: Tahoma;
+}
+
+#top > p {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+#left > p {
+	text-align: center;
+}
+
+ul {
+	text-align: left;
+	clear: both;
+}
+
+#jslink {
+	text-decoration: none;
+	color: purple;
+}
