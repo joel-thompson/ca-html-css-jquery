@@ -1,22 +1,22 @@
-window.addEventListener('load', function () {
-  console.log('Site loaded with my_javascript.js');
+//no waiting
+console.log("Hello World - I don't like to wait!")
+
+
+
+//wait for document.ready
+$(document).ready(function() {
+ 
+    console.log('document ready');
+
+    //use the id to create an onclick
+    $( "#jslink" ).click(function( event ) {
+ 
+        console.log('Click!!');
+ 		
+ 		//don't redirect
+        event.preventDefault();
+ 
+    });
+ 
 });
 
-window.onload = function() {
-
-	//Get a reference to the link on the page
-	// with an id of "mylink"
-	var a = document.getElementById("jslink");
-
-	//Set code to run when the link is clicked
-	// by assigning a function to "onclick"
-	a.onclick = function() {
-
-		console.log('Click!!');
-
-		
-
-		//don't want the link to redirect
-		return false;
-	}
-}
