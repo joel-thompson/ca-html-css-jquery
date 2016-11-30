@@ -17,6 +17,14 @@ $(document).ready(function() {
         event.preventDefault();
  
     });
+
+    $('li').click(function() {
+    	$(this).fadeOut('slow');
+    });
+
+    $('#comeback').click(function(){
+    	$('#right li').fadeIn('slow');
+    });
  
 });
 
