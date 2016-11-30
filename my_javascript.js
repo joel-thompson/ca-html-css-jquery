@@ -11,7 +11,7 @@ $(document).ready(function() {
     //use the id to create an onclick
     $( "#jslink" ).click(function( event ) {
  
-        console.log('Click!!');
+        console.log('Click');
  		
  		//don't redirect
         event.preventDefault();
