@@ -18,10 +18,12 @@ $(document).ready(function() {
  
     });
 
-    $('li').click(function() {
+    // fades list items inside #right on the page when they are clicked
+    $('#right li').click(function() {
     	$(this).fadeOut('slow');
     });
 
+    //brings back the #right list items when clicking #comeback
     $('#comeback').click(function(){
     	$('#right li').fadeIn('slow');
     });
