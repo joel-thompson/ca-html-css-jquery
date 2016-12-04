@@ -31,6 +31,10 @@ div {
 	float: left;
 }
 
+#right li {
+	cursor:pointer;
+}
+
 #bottom {
 	height: 35px;
 	width: 700px;
@@ -66,4 +70,5 @@ ul {
 	text-align: center;
 	color: white;
 	font-family: Courier; 
+	cursor:pointer;
 }
