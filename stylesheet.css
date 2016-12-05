@@ -72,3 +72,18 @@ ul {
 	font-family: Courier; 
 	cursor:pointer;
 }
+
+#addmore {
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	font-family: Courier;
+}
+
+#comebackfirst, #addmorefirst {
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	border: black 2px dashed;
+}
