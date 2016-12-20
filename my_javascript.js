@@ -8,6 +8,16 @@ $(document).ready(function() {
  
     console.log('document ready');
 
+
+    // playing with underscore
+    var even = _.filter([1, 2, 3, 4, 5, 6], function(num){ return num % 2 == 0; });
+    console.log(even);
+
+
+
+
+
+
     //use the id to create an onclick
     $( "#jslink" ).click(function( event ) {
  
